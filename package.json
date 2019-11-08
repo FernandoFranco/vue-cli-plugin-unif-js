@@ -1,0 +1,17 @@
+{
+  "name": "vue-cli-plugin-unif-js",
+  "version": "1.0.0",
+  "description": "Vue CLI plugin to UnifJS",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FernandoFranco/vue-cli-plugin-unif-js.git"
+  },
+  "keywords": [
+    "vue",
+    "vue-cli",
+    "unif-js"
+  ],
+  "author": "Fernando Franco <fernando_franco@acaciaconsultoria.com.br>",
+  "license": "MIT"
+}
