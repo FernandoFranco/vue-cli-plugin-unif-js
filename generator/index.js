@@ -1,12 +1,13 @@
 module.exports = (api, options) => {
   api.extendPackage({
     dependencies: {
+      'unif-js': '^1.0.0',
       'vue-unif-js': '^1.0.0',
     },
   });
 
   api.onCreateComplete(() => {
-    const unifLines = `\nimport './plugins/unif-js.js';`;
+    const unifLines = `\n\nimport './plugins/unif-js';`;
 
     const fs = require('fs');
     const ext = api.hasPlugin('typescript') ? 'ts' : 'js';
