@@ -1,8 +1,8 @@
 module.exports = (api, options) => {
   api.extendPackage({
     dependencies: {
-      'unif-js': '^1.1.0',
-      'vue-unif-js': '^1.1.0',
+      'unif-js': '^1.1.7',
+      'vue-unif-js': '^1.1.3',
     },
   });
 
